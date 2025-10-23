@@ -1,4 +1,4 @@
-- Customer Users 테이블 생성
+-- Customer Users 테이블 생성
 CREATE TABLE IF NOT EXISTS customer_users (
     id TEXT PRIMARY KEY DEFAULT gen_random_uuid()::text,
     email VARCHAR(255) UNIQUE NOT NULL,
